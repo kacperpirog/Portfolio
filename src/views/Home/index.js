@@ -1,6 +1,5 @@
 import React from "react";
 import { Element } from "react-scroll";
-import { StyledDiv } from "./StyledHome";
 import SliderHome from "../../components/sliderHome";
 import About from "../About";
 import MySkills from "../MySkills";

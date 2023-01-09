@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleH2 } from "../../components/sliderHome/StyledSlider";
-import { StyledAnimationsDiv, StyledSection } from "./StyledAbout";
+import { StyledSection } from "./StyledAbout";
 
 const About = () => {
   return (

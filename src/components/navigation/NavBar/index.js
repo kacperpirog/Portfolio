@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { StyledLink, StyledNav } from "./StyledNavBar";
 import profileFoto from "../../../assets/images/profile/foto_KP.jpeg";
 
