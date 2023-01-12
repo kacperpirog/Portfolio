@@ -6,22 +6,22 @@ export const localData = [
   {
     id: 1,
     name: "shop",
-    nameGit: "https://github.com/",
-    nameLive: "https://github.com/",
+    nameGit: "https://github.com/kacperpirog/react_shop",
+    nameLive: "https://shop-react-portfolio.netlify.app",
     image: photo_1,
   },
   {
     id: 2,
     name: "Recipes",
     nameGit: "https://github.com/kacperpirog/Recipes",
-    nameLive: "https://github.com/",
+    nameLive: "https://recipes-kacper-pirog-portfolio.netlify.app",
     image: photo_2,
   },
   {
     id: 3,
     name: "movies",
     nameGit: "https://github.com/kacperpirog/movies",
-    nameLive: "https://github.com/",
+    nameLive: "https://movies-kacper-pirog.netlify.app",
     image: photo_3,
   },
 ];

@@ -9,6 +9,9 @@ import {
 } from "../Work/StyledWork";
 
 const Work = () => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <StyledSection>
       <div>
@@ -25,11 +28,11 @@ const Work = () => {
                 <StyledDiv>
                   <img src={image} alt={name} />
                   <div>
-                    <BtnShowProject onClick={nameGit}>
+                    <BtnShowProject onClick={() => openInNewTab(nameGit)}>
                       <span>{name} GITHUB</span>
                     </BtnShowProject>
 
-                    <BtnShowProject onClick={nameLive}>
+                    <BtnShowProject onClick={() => openInNewTab(nameLive)}>
                       <span> {name} demo live</span>
                     </BtnShowProject>
                   </div>
