@@ -5,7 +5,7 @@ import photo_3 from "../assets/images/photo_1 (3).jpg";
 export const localData = [
   {
     id: 1,
-    name: "shop",
+    name: "Shop",
     nameGit: "https://github.com/kacperpirog/react_shop",
     nameLive: "https://shop-react-portfolio.netlify.app",
     image: photo_1,
@@ -19,7 +19,7 @@ export const localData = [
   },
   {
     id: 3,
-    name: "movies",
+    name: "Movies",
     nameGit: "https://github.com/kacperpirog/movies",
     nameLive: "https://movies-kacper-pirog.netlify.app",
     image: photo_3,

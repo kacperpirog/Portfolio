@@ -65,21 +65,21 @@ const MySkills = () => {
                 <g class="point-group">
                   <g class="skill" transform="translate(90, 100)">
                     <text x="0%" y="5%">
-                      Scala
+                      React
                     </text>
                   </g>
                 </g>
                 <g class="point-group">
                   <g class="skill" transform="translate(22, 70)">
                     <text x="0%" y="5%">
-                      Vue
+                      API
                     </text>
                   </g>
                 </g>
                 <g class="point-group">
                   <g class="skill" transform="translate(100, 70)">
                     <text x="0%" y="5%">
-                      Vue
+                      Bootstarp
                     </text>
                   </g>
                 </g>

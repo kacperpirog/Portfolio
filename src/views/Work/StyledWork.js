@@ -8,6 +8,7 @@ export const StyledSection = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 `;
 
 export const StyledUl = styled.ul`

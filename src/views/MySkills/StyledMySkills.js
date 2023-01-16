@@ -5,10 +5,11 @@ export const StyledSection = styled.section`
   background: #fff;
   display: flex;
   justify-content: center;
-  height: 500px;
+  height: 700px;
   background: #ededed;
   flex-direction: column;
-  padding-top: 73px;
+
+  padding: 1rem;
 `;
 
 export const StyledAnimationsDiv = styled.div`

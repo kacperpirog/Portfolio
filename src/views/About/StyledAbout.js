@@ -11,7 +11,10 @@ export const StyledSection = styled.section`
   height: 500px;
   padding: 40px 40px 40px 40px;
   background: #fff;
-  h3 {
+  p {
     text-align: center;
+  }
+  div {
+    width: 50%;
   }
 `;

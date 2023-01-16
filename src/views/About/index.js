@@ -5,22 +5,23 @@ import { StyledSection } from "./StyledAbout";
 const About = () => {
   return (
     <StyledSection>
-      <div>
+      <section>
         <StyleH2>A</StyleH2>
         <StyleH2>b</StyleH2>
         <StyleH2>o</StyleH2>
         <StyleH2>u</StyleH2>
         <StyleH2>t</StyleH2>
-      </div>
+      </section>
       <div>
-        <h3>
-          I started programming around 2 years ago. I deepen my knowledge under
-          the watchful eye of experienced developer. In May 2021 I decided to
-          focus on specific framework that is React. Since then I started to
-          create more advanced projects that allowed me to progress and
-          consolidate my skills. Currently I am looking for commercial projects
-          thanks to which I could get experience.
-        </h3>
+        <p>
+          Od ponad kilku lat, moje zainteresowania oscylują wokół programowania.
+          Zdobywanie doświadczenia zacząłem od bootcampa, który trwał 9
+          miesięcy. Nauczyłem się wówczas podstaw: HTML, CSS, RWD, Bootstrap,
+          Git, JavaScript ES6, AJAX, React, Redux, NPM, Webpack. Ponadto przez
+          dwa lata poszerzałem swoją wiedzę związaną z IT podczas lekcji
+          pobieranych u doświadczonego starszego programisty, przy jego pomocy
+          podszkoliłem swój warsztat związany z React-em.
+        </p>
       </div>
     </StyledSection>
   );

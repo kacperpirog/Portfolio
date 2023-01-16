@@ -59,7 +59,7 @@ const FormContact = () => {
               <input
                 type="text"
                 name="subject"
-                placeholder="subject"
+                placeholder="Subject"
                 value={values.subject}
                 onChange={handleChange}
               />
@@ -67,12 +67,12 @@ const FormContact = () => {
               <input
                 type="message"
                 name="message"
-                placeholder="message"
+                placeholder="Message"
                 value={values.message}
                 onChange={handleChange}
               />
               <ErrorMessage name="message" />
-              <div>
+              <section>
                 <label htmlFor="acceptTerms">Accept to send</label>
                 <input
                   className="accespt__Term__Styled"
@@ -83,7 +83,7 @@ const FormContact = () => {
                   checked={values.acceptTerms}
                   onChange={handleChange}
                 />
-              </div>
+              </section>
               <div>
                 <BtnFormSend type="submit">
                   <span>SEND</span>
