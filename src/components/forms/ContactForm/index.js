@@ -2,7 +2,7 @@ import React from "react";
 import * as Yup from "yup";
 import { Formik, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
-import { StyledForm, BtnFormSend } from "./StyledContactForm";
+import { StyledForm, BtnFormSend, StyledInput } from "./StyledContactForm";
 
 const contactFormValidationsSchema = Yup.object().shape({
   name: Yup.string().required("Enter your Name"),
@@ -40,7 +40,7 @@ const FormContact = () => {
         {({ values, handleChange }) => (
           <>
             <StyledForm>
-              <input
+              <StyledInput
                 type="text"
                 name="name"
                 placeholder="Your Name"
@@ -48,7 +48,7 @@ const FormContact = () => {
                 onChange={handleChange}
               />
               <ErrorMessage name="name" />
-              <input
+              <StyledInput
                 type="email"
                 name="email"
                 placeholder="Email"
@@ -56,7 +56,7 @@ const FormContact = () => {
                 onChange={handleChange}
               />
               <ErrorMessage name="subject" />
-              <input
+              <StyledInput
                 type="text"
                 name="subject"
                 placeholder="Subject"
@@ -64,7 +64,7 @@ const FormContact = () => {
                 onChange={handleChange}
               />
               <ErrorMessage name="subject" />
-              <input
+              <StyledInput
                 type="message"
                 name="message"
                 placeholder="Message"
