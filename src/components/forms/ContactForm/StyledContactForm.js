@@ -7,6 +7,9 @@ export const StyledForm = styled(Form)`
   align-items: center;
 
   section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     input {
       width: 2rem;
       height: 3rem;
