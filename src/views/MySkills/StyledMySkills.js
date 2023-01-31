@@ -8,7 +8,6 @@ export const StyledSection = styled.section`
   height: 700px;
   background: #ededed;
   flex-direction: column;
-
   padding: 1rem;
 `;
 
@@ -17,7 +16,6 @@ export const StyledAnimationsDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 3;
   }
 
   svg {
@@ -34,6 +32,7 @@ export const StyledAnimationsDiv = styled.div`
       animation-play-state: paused;
       text {
         animation-play-state: paused;
+        font-size: 7px;
       }
       .point-group {
         opacity: 0.5;
@@ -64,7 +63,7 @@ export const StyledAnimationsDiv = styled.div`
     transition-delay: 0.25s;
     &:hover {
       transition: transform 0.5s, opacity 0.5s;
-      transform: scale(2);
+      transform: scale(1.4);
       transition-delay: 0s;
       filter: drop-shadow(0 0 1px rgba(0, 0, 0, 1));
       z-index: 1;
@@ -89,13 +88,14 @@ export const StyledAnimationsDiv = styled.div`
 
   text {
     fill: #e0d0b0;
-    font-size: 10px;
+    font-size: 5px;
     text-anchor: middle;
     &::after {
       fill: #000;
       display: block;
       content: "";
       position: absolute;
+      font-size: 5px;
       top: 0;
       left: 0;
       right: 0;

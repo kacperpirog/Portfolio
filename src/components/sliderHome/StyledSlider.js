@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import foto_02 from "../../assets/images/BG/tlo.jpg";
+import { devices } from "../../styles/globalStyles/GlobalStyles";
 
 export const StyledSection = styled.section`
   margin-top: 70px;
@@ -24,6 +25,22 @@ export const StyleH2 = styled.h2`
   display: inline-block;
   font-size: 5.3rem;
   color: #8b8b8b;
+
+  @media ${devices.mobileS} {
+    font-size: 2.3rem;
+  }
+  @media ${devices.laptopL} {
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    font-size: 5.3rem;
+    color: #8b8b8b;
+  }
+  @media ${devices.desktop} {
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    font-size: 5.3rem;
+    color: #8b8b8b;
+  }
 
   :hover {
     animation: rubberBand 1s;

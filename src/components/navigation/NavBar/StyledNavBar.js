@@ -23,9 +23,10 @@ export const StyledNav = styled.nav`
   }
 
   ul {
-    list-style: none;
     display: flex;
-    width: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     li {
       margin: 0 10px;
     }
@@ -34,7 +35,6 @@ export const StyledNav = styled.nav`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
-  color: black;
   color: #000;
   background-color: #438548;
   padding: 15px 0;
@@ -43,13 +43,13 @@ export const StyledLink = styled(Link)`
   background: linear-gradient(currentColor, currentColor) bottom / 0 0.1em
     no-repeat;
   transition: 1s background-size;
-  font-family: "Outfit", sans-serif;
 
   &:hover {
     text-decoration: none;
     color: #000;
     background-size: 100% 0.1em;
-    font-family: "Outfit", sans-serif;
+
     cursor: pointer;
   }
 `;
+export const StyledUl = styled.ul``;

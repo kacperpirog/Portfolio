@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { Element } from "react-scroll";
 import SliderHome from "../../components/sliderHome";
 import About from "../About";
 import MySkills from "../MySkills";
 import Work from "../Work";
 import Contact from "../Contact";
+import { StyleDivLoading } from "./StyledHome";
 
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 3000);
+
+  if (loading) {
+    return (
+      <StyleDivLoading>
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      </StyleDivLoading>
+    );
+  }
   return (
     <div>
       <Element name="Home" className="element">

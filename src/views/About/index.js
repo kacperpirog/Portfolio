@@ -13,15 +13,15 @@ const About = () => {
         <StyleH2>t</StyleH2>
       </section>
       <div>
-        <p>
-          Od ponad kilku lat, moje zainteresowania oscylują wokół programowania.
-          Zdobywanie doświadczenia zacząłem od bootcampa, który trwał 9
-          miesięcy. Nauczyłem się wówczas podstaw: HTML, CSS, RWD, Bootstrap,
-          Git, JavaScript ES6, AJAX, React, Redux, NPM, Webpack. Ponadto przez
-          dwa lata poszerzałem swoją wiedzę związaną z IT podczas lekcji
-          pobieranych u doświadczonego starszego programisty, przy jego pomocy
-          podszkoliłem swój warsztat związany z React-em.
-        </p>
+        <h3>
+          For over several years, my interests have oscillated around
+          programming. I started gaining experience with a bootcamp, which
+          lasted 9 months. Then I learned the basics: HTML, CSS, RWD, Bootstrap,
+          Git, JavaScript ES6, AJAX, React, Redux, NPM, Webpack. In addition,
+          for two years I expanded my knowledge related to IT during lessons
+          taken from an experienced senior programmer, with his help I improved
+          my React workshop.
+        </h3>
       </div>
     </StyledSection>
   );

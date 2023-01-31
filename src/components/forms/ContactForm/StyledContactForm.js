@@ -5,14 +5,13 @@ export const StyledForm = styled(Form)`
   display: flex;
   flex-direction: column;
   align-items: center;
-
   section {
     display: flex;
     align-items: center;
     justify-content: center;
     input {
       width: 2rem;
-      height: 3rem;
+      height: 1.2rem;
       margin: 0.3rem;
     }
     div {
@@ -27,11 +26,12 @@ export const StyledInput = styled.input`
   width: 20rem;
   height: 3rem;
   margin: 0.3rem;
+  border: 3px solid rgb(201, 184, 154);
   :focus,
   :active {
     box-shadow: rgb(210, 213, 217) 0px 0px 2px 1px,
       rgb(227, 230, 232) 0px 0px 0px 3px;
-    border: 3px solid rgb(26, 33, 43);
+    border: 3px solid rgb(223, 223, 223);
     outline: none;
   }
 `;

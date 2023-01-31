@@ -77,12 +77,12 @@ export const BtnShowProject = styled.button`
     transform: translate3d(-100%, 0, 0);
     transition: transform 0.3s ease-in;
   }
-  :after {
+  /* :after {
     background: #fff;
     border: 2px solid #e0d0b0;
     transform: translate3d(100%, 0, 0);
     transition: transform 0.25s ease-out 0.29s;
-  }
+  } */
   span {
     position: relative;
     z-index: 10;

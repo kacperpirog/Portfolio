@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "../../styles/globalStyles/GlobalStyles";
 
 export const StyledSection = styled.section`
   display: flex;
@@ -11,10 +12,15 @@ export const StyledSection = styled.section`
   height: 500px;
   padding: 40px 40px 40px 40px;
   background: #fff;
-  p {
+  h3 {
     text-align: center;
   }
   div {
     width: 50%;
+  }
+  @media ${devices.mobileS} {
+    div {
+      width: 80%;
+    }
   }
 `;
