@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { StyledLink, StyledNav } from "./StyledNavBar";
 import profileFoto from "../../../assets/images/profile/foto_KP.jpeg";
-import styled from "styled-components";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
   return (
     <StyledNav>
       <div>

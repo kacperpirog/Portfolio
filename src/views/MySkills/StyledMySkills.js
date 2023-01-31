@@ -32,7 +32,6 @@ export const StyledAnimationsDiv = styled.div`
       animation-play-state: paused;
       text {
         animation-play-state: paused;
-        font-size: 7px;
       }
       .point-group {
         opacity: 0.5;
@@ -63,7 +62,7 @@ export const StyledAnimationsDiv = styled.div`
     transition-delay: 0.25s;
     &:hover {
       transition: transform 0.5s, opacity 0.5s;
-      transform: scale(1.4);
+      transform: scale(1.1);
       transition-delay: 0s;
       filter: drop-shadow(0 0 1px rgba(0, 0, 0, 1));
       z-index: 1;
@@ -95,7 +94,7 @@ export const StyledAnimationsDiv = styled.div`
       display: block;
       content: "";
       position: absolute;
-      font-size: 5px;
+
       top: 0;
       left: 0;
       right: 0;
