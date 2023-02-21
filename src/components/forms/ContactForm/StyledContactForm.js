@@ -5,15 +5,18 @@ export const StyledForm = styled(Form)`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50vw;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background: #e1e1e1;
+
   section {
     display: flex;
     align-items: center;
     justify-content: center;
-    input {
-      width: 2rem;
-      height: 1.2rem;
-      margin: 0.3rem;
-    }
+
     div {
       width: 65%;
       display: flex;
@@ -23,16 +26,24 @@ export const StyledForm = styled(Form)`
   }
 `;
 export const StyledInput = styled.input`
-  width: 20rem;
-  height: 3rem;
-  margin: 0.3rem;
-  border: 3px solid rgb(201, 184, 154);
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  ::placeholder {
+    color: #000;
+  }
   :focus,
-  :active {
-    box-shadow: rgb(210, 213, 217) 0px 0px 2px 1px,
-      rgb(227, 230, 232) 0px 0px 0px 3px;
-    border: 3px solid rgb(223, 223, 223);
-    outline: none;
+  :valid {
+    top: -20px;
+    left: 0;
+    color: #1f1f1f;
+    font-size: 14px;
   }
 `;
 
@@ -51,9 +62,9 @@ export const BtnFormSend = styled.button`
 
   :hover {
     cursor: pointer;
-    background: #000;
-    color: #fff;
-    border: 1px solid #e0d0b0;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
     transition: all 0.5s;
   }
 `;
