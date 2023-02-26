@@ -32,3 +32,16 @@ export const textHome = [
   { id: 3, textHome: "Frontend developer" },
   { id: 4, textHome: "& Graphic" },
 ];
+
+export const mySkillsExp = [
+  { id: 1, text: "javaScript" },
+  { id: 2, text: "javaScript" },
+  { id: 3, text: "javaScript" },
+  { id: 4, text: "javaScript" },
+  { id: 5, text: "javaScript" },
+  { id: 6, text: "javaScript" },
+  { id: 7, text: "javaScript" },
+  { id: 8, text: "javaScript" },
+  { id: 9, text: "javaScript" },
+  { id: 10, text: "javaScript" },
+];

@@ -174,3 +174,26 @@ export const StyledAnimationsDiv = styled.div`
     }
   }
 `;
+
+export const StyledDivSkils = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  ul {
+    width: 300px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #f33aa2 10%, #414345 90%);
+  }
+  li {
+    color: white;
+    /*padding:4px 10px 4px 10px;*/
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    text-align: center;
+    min-width: 32.4%;
+    max-width: 32.4%;
+    display: inline-block;
+    cursor: pointer;
+  }
+`;

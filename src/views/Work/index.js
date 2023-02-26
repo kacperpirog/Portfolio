@@ -24,20 +24,22 @@ const Work = () => {
         <StyledUl>
           {localData.map(({ image, nameGit, id, nameLive, name }) => {
             return (
-              <li key={id}>
-                <StyledDiv>
-                  <img src={image} alt={name} />
-                  <div>
-                    <BtnShowProject onClick={() => openInNewTab(nameGit)}>
-                      <span>{name} GITHUB</span>
-                    </BtnShowProject>
+              <ul>
+                <li key={id}>
+                  <StyledDiv>
+                    <img src={image} alt={name} />
+                    <div>
+                      <BtnShowProject onClick={() => openInNewTab(nameGit)}>
+                        <span>{name} GITHUB</span>
+                      </BtnShowProject>
 
-                    <BtnShowProject onClick={() => openInNewTab(nameLive)}>
-                      <span> {name} demo live</span>
-                    </BtnShowProject>
-                  </div>
-                </StyledDiv>
-              </li>
+                      <BtnShowProject onClick={() => openInNewTab(nameLive)}>
+                        <span> {name} demo live</span>
+                      </BtnShowProject>
+                    </div>
+                  </StyledDiv>
+                </li>
+              </ul>
             );
           })}
         </StyledUl>
