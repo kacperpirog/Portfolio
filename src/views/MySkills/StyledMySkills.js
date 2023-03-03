@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const StyledSection = styled.section`
   align-items: center;
-  background: #fff;
   display: flex;
   justify-content: center;
-  height: 700px;
-  background: #ededed;
   flex-direction: column;
   padding: 1rem;
+`;
+
+export const StyledDivAnimationSkills = styled.div`
+  display: flex;
+  flex-wrap: wrap;
 `;
 
 export const StyledAnimationsDiv = styled.div`
@@ -178,22 +180,28 @@ export const StyledAnimationsDiv = styled.div`
 export const StyledDivSkils = styled.div`
   display: flex;
   flex-wrap: wrap;
+
+  div {
+    width: 20rem;
+  }
+
   ul {
-    width: 300px;
-    margin: 0 auto;
-    background: linear-gradient(90deg, #f33aa2 10%, #414345 90%);
+    margin: 12px;
+    background: linear-gradient(
+      90deg,
+      rgba(153, 90, 223, 1) 50%,
+      rgba(24, 143, 163, 1) 100%
+    );
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
+      -1px -1px 5px rgba(19, 158, 179, 0.4);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 25px;
   }
   li {
-    color: white;
-    /*padding:4px 10px 4px 10px;*/
-    height: 32px;
-    line-height: 32px;
-    margin-bottom: 4px;
-    border-radius: 2px;
-    text-align: center;
-    min-width: 32.4%;
-    max-width: 32.4%;
-    display: inline-block;
-    cursor: pointer;
   }
 `;

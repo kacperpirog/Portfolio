@@ -6,6 +6,8 @@ export const localData = [
   {
     id: 1,
     name: "Shop",
+    title: "Lorem Ipsim",
+    text: "Lorem ipsum Lorem ipsum L ",
     nameGit: "https://github.com/kacperpirog/react_shop",
     nameLive: "https://shop-react-portfolio.netlify.app",
     image: photo_1,
@@ -13,6 +15,8 @@ export const localData = [
   {
     id: 2,
     name: "Recipes",
+    title: "Lorem Ipsim",
+    text: "Lorem ipsum Lorem ipsum Lorem  ",
     nameGit: "https://github.com/kacperpirog/Recipes",
     nameLive: "https://recipes-kacper-pirog-portfolio.netlify.app",
     image: photo_2,
@@ -20,6 +24,8 @@ export const localData = [
   {
     id: 3,
     name: "Movies",
+    title: "Lorem Ipsim",
+    text: "Lorem ipsum Lorem ipsum Lore ",
     nameGit: "https://github.com/kacperpirog/movies",
     nameLive: "https://movies-kacper-pirog.netlify.app",
     image: photo_3,
@@ -35,13 +41,16 @@ export const textHome = [
 
 export const mySkillsExp = [
   { id: 1, text: "javaScript" },
-  { id: 2, text: "javaScript" },
-  { id: 3, text: "javaScript" },
-  { id: 4, text: "javaScript" },
-  { id: 5, text: "javaScript" },
-  { id: 6, text: "javaScript" },
-  { id: 7, text: "javaScript" },
-  { id: 8, text: "javaScript" },
-  { id: 9, text: "javaScript" },
-  { id: 10, text: "javaScript" },
+  { id: 2, text: "Bootstarp" },
+  { id: 3, text: "REST API" },
+  { id: 4, text: "React" },
+  { id: 5, text: "HTML" },
+  { id: 6, text: "CSS" },
+  { id: 7, text: "Typescript" },
+  { id: 8, text: "Styled components" },
+  { id: 9, text: "RWD" },
+  { id: 10, text: "GIT" },
+  { id: 11, text: "Styled components" },
+  { id: 12, text: "RWD" },
+  { id: 13, text: "GIT" },
 ];

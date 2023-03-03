@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import foto_02 from "../../assets/images/BG/tlo.jpg";
 
 export const StyledSection = styled.section`
   display: flex;
-  background: url(${foto_02});
   background-size: cover;
   flex-direction: column;
   justify-content: center;
@@ -20,8 +18,10 @@ export const StyledUl = styled.ul`
   padding: 40px 40px 40px 40px;
   li {
     margin: 1rem;
-    background: #fff;
-    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
+      -1px -1px 5px rgba(19, 158, 179, 0.4);
+    padding: 1rem;
   }
 
   img {
@@ -47,20 +47,20 @@ export const BtnShowProject = styled.button`
   box-sizing: border-box;
   margin: 0.2rem 0.2rem;
   padding: 0.2rem 0.2rem;
-  background: none;
-  color: #000;
-  border: 1px solid #e0d0b0;
   transition: all 0.5s;
   font-size: 15px;
-  height: 5rem;
+  height: 3rem;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px rgba(250, 250, 250, 0.4);
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  background: none;
+  color: #fff;
   :hover {
     cursor: pointer;
   }
 
-  position: relative;
-  overflow: hidden;
-  border: 0;
-  box-shadow: inset 0 0 0 1px #e0d0b0;
   :before,
   :after {
     position: absolute;
@@ -68,17 +68,25 @@ export const BtnShowProject = styled.button`
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
+      -1px -1px 5px rgba(19, 158, 179, 0.4);
 
     content: "";
   }
   :before {
-    background: #e0d0b0;
-    border: 1px solid #e0d0b0;
+    background: linear-gradient(
+      90deg,
+      rgba(153, 90, 223, 1) 50%,
+      rgba(24, 143, 163, 1) 100%
+    );
+    color: #fff;
+
     transform: translate3d(-100%, 0, 0);
     transition: transform 0.3s ease-in;
   }
 
-  span {
+  h6 {
     position: relative;
     z-index: 10;
   }

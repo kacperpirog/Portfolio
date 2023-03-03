@@ -14,7 +14,7 @@ export const StyledDiv = styled.div`
   width: 100hv;
   height: 500px;
   padding: 0px 40px 40px 40px;
-  background: url(${foto_02});
+
   background-size: cover;
   flex-direction: column;
   justify-content: center;
