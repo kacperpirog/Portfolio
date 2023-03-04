@@ -16,6 +16,9 @@ export const StyledUl = styled.ul`
   justify-content: center;
   margin: 0 auto;
   padding: 40px 40px 40px 40px;
+  ul {
+    width: 450px;
+  }
   li {
     margin: 1rem;
     border-radius: 10px;
@@ -26,6 +29,8 @@ export const StyledUl = styled.ul`
 
   img {
     width: 300px;
+    margin-bottom: 1rem;
+    filter: drop-shadow(2px 4px 6px #15abc4);
   }
 `;
 

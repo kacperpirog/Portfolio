@@ -12,7 +12,7 @@ body{
 /* font-family: ; */
 overflow-x: hidden;
 background: linear-gradient(#0f1724, #0f1724);
-  font-family: "Prompt", sans-serif;
+font-family: 'Share Tech Mono', monospace;
 }
 
 ul {
@@ -27,25 +27,33 @@ i{
     cursor: pointer;
 }
 h1{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 h2{
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 h3{
-    font-family: 'Prompt', sans-serif;
+    
+    font-family: 'Share Tech Mono', monospace;
+    color:#fff;
 }
 h4{
-    font-family: 'Prompt', sans-serif;
+    
+    font-family: 'Share Tech Mono', monospace;
+    color:#fff;
 }
 h5{
-    font-family: 'Prompt', sans-serif;
+   
+    font-family: 'Share Tech Mono', monospace;
 }
 link {
-    font-family: 'Prompt', sans-serif;
+    
+   
+    font-family: 'Share Tech Mono', monospace;
 }
 p{
-    font-family: 'Prompt', sans-serif;
+    
+    font-family: 'Share Tech Mono', monospace;
 }
 
 `;

@@ -1,6 +1,6 @@
-import photo_1 from "../assets/images/photo_1 (1).jpg";
-import photo_2 from "../assets/images/photo_1 (2).jpg";
-import photo_3 from "../assets/images/photo_1 (3).jpg";
+import photo_1 from "../assets/images/photo_1.jpg";
+import photo_2 from "../assets/images/photo_2.jpg";
+import photo_3 from "../assets/images/photo_3.jpg";
 
 export const localData = [
   {
