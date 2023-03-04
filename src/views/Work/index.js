@@ -29,7 +29,8 @@ const Work = () => {
                   <li key={id}>
                     <StyledDiv>
                       <img src={image} alt={name} />
-                      <h3>{title}</h3>
+                      <h2>{title}</h2>
+                      <h3>TECHNOLOGICAL SPECIFICATION:</h3>
                       <h4>{text}</h4>
                       <div>
                         <BtnShowProject onClick={() => openInNewTab(nameGit)}>

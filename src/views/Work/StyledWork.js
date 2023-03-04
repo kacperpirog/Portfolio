@@ -13,11 +13,15 @@ export const StyledUl = styled.ul`
   display: flex;
   flex-wrap: wrap;
   width: 80vw;
+
   justify-content: center;
   margin: 0 auto;
   padding: 40px 40px 40px 40px;
+  align-items: initial;
   ul {
-    width: 450px;
+    width: 350px;
+    display: flex;
+    align-items: inherit;
   }
   li {
     margin: 1rem;
@@ -25,19 +29,20 @@ export const StyledUl = styled.ul`
     box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
       -1px -1px 5px rgba(19, 158, 179, 0.4);
     padding: 1rem;
+
+    h3 {
+      margin-top: 20px;
+    }
   }
 
   img {
-    width: 300px;
-    margin-bottom: 1rem;
+    width: 285px;
+    margin-bottom: 1.5rem;
     filter: drop-shadow(2px 4px 6px #15abc4);
   }
 `;
 
 export const StyledDiv = styled.div`
-  align-items: center;
-  justify-content: space-between;
-
   div {
     display: flex;
     justify-content: space-between;
