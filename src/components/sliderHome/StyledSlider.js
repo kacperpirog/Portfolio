@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import foto_02 from "../../assets/images/BG/tlo.jpg";
+
 import { devices } from "../../styles/globalStyles/GlobalStyles";
 
 export const StyledSection = styled.section`
@@ -23,8 +23,8 @@ export const StyledDiv = styled.div`
 export const StyleH2 = styled.h2`
   transition: all 0.3s ease-out;
   display: inline-block;
-  font-size: 5.3rem;
-  color: #8b8b8b;
+  font-size: 3.3rem;
+  color: #fff;
 
   @media ${devices.mobileS} {
     font-size: 2.3rem;
@@ -32,14 +32,16 @@ export const StyleH2 = styled.h2`
   @media ${devices.laptopL} {
     transition: all 0.3s ease-out;
     display: inline-block;
-    font-size: 5.3rem;
-    color: #8b8b8b;
+    font-size: 3.3rem;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
+      -1px -1px 5px rgba(19, 158, 179, 0.4);
   }
   @media ${devices.desktop} {
     transition: all 0.3s ease-out;
     display: inline-block;
-    font-size: 5.3rem;
-    color: #8b8b8b;
+    font-size: 3.3rem;
+    color: #fff;
   }
 
   :hover {
