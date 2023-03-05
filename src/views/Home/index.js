@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Element } from "react-scroll";
 import SliderHome from "../../components/sliderHome";
-import About from "../About";
 import MySkills from "../MySkills";
 import Work from "../Work";
 import Contact from "../Contact";
@@ -27,9 +26,6 @@ const Home = () => {
     <div>
       <Element name="Home" className="element">
         <SliderHome />
-        {/* </Element>
-      <Element name="About" className="element">
-        <About /> */}
       </Element>
       <Element name="Skills" className="element">
         <MySkills />

@@ -22,17 +22,7 @@ const NavBar = () => {
             Home
           </StyledLink>
         </li>
-        <li>
-          <StyledLink
-            activeClass="active"
-            to="About"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            About
-          </StyledLink>
-        </li>
+
         <li>
           <StyledLink
             activeClass="active"
