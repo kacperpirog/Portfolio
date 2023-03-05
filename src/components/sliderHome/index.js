@@ -42,9 +42,12 @@ const SliderHome = () => {
         </div>
         <div>
           <h3>
-            For over several years, my interests have oscillated around
-            programming. I started gaining experience with a bootcamp, which
-            lasted 9 months. Then I learned the basics: HTML, CSS, RWD,
+            As a Frontend Developer with a Graphic Designer background, I
+            possess the knowledge and skills necessary to design and create
+            responsive and visually appealing websites. By combining my
+            knowledge in graphic design and programming, I am able to create
+            websites that blend aesthetic beauty with functionality and ease of
+            use.
           </h3>
         </div>
         <StyledDivCircle>

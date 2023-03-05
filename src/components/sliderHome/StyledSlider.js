@@ -4,7 +4,6 @@ import profileFoto_01 from "../../assets/images/profile/foto_KP_01.jpg";
 import { devices } from "../../styles/globalStyles/GlobalStyles";
 
 export const StyledSection = styled.section`
-  margin-top: 70px;
   display: flex;
   width: 85vw;
 `;
