@@ -18,6 +18,9 @@ export const StyledDiv = styled.div`
     width: 50vw;
     margin-top: 20px;
   }
+  h6 {
+    padding: 0 19px;
+  }
 `;
 export const StyledDivCircle = styled.div`
   position: absolute;

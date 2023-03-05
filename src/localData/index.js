@@ -1,6 +1,7 @@
 import photo_1 from "../assets/images/photo_1.jpg";
 import photo_2 from "../assets/images/photo_2.jpg";
 import photo_3 from "../assets/images/photo_3.jpg";
+import photo_4 from "../assets/images/photo_4.jpg";
 
 export const localData = [
   {
@@ -16,7 +17,7 @@ export const localData = [
     id: 2,
     name: "Recipes",
     title: "Recipes App",
-    text: "React, React Router, Styled-components, RWD, Axios.",
+    text: "React, React-Router, Styled-components, RWD, Axios.",
     nameGit: "https://github.com/kacperpirog/Recipes",
     nameLive: "https://recipes-kacper-pirog-portfolio.netlify.app",
     image: photo_2,
@@ -25,24 +26,24 @@ export const localData = [
     id: 3,
     name: "Movies ",
     title: "Movies App",
-    text: "React, React Router, Styled-components, RWD, Axios.",
+    text: "React, React-Router, Styled-components, RWD, Axios.",
     nameGit: "https://github.com/kacperpirog/movies",
     nameLive: "https://movies-kacper-pirog.netlify.app",
     image: photo_3,
   },
   {
     id: 4,
-    name: "Movies",
-    title: "Lorem Ipsim",
-    text: "React, React Router, Styled-components, RWD, Axios.",
+    name: "Portfolio",
+    title: "Frontend Developer",
+    text: "React, Styled-components, RWD, Formik, Yup, emailjs.",
     nameGit: "https://github.com/kacperpirog/movies",
-    nameLive: "https://movies-kacper-pirog.netlify.app",
-    image: photo_3,
+    nameLive: "https://kacper-pirog-portfolio.netlify.app",
+    image: photo_4,
   },
   {
     id: 5,
     name: "Movies",
-    title: "Lorem Ipsim",
+    title: "Lorem Ipsum",
     text: "Lorem ipsum Lorem ipsum Lore ",
     nameGit: "https://github.com/kacperpirog/movies",
     nameLive: "https://movies-kacper-pirog.netlify.app",

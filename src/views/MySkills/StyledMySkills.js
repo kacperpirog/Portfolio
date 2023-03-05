@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "../../styles/globalStyles/GlobalStyles";
 
 export const StyledSection = styled.section`
   align-items: center;

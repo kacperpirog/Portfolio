@@ -92,7 +92,6 @@ export const BtnShowProject = styled.button`
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
       -1px -1px 5px rgba(19, 158, 179, 0.4);
-
     content: "";
   }
   :before {
