@@ -8,7 +8,7 @@ const SliderHome = () => {
     if (
       (id === 2 && index === 3) ||
       (id === 3 && index === 8) ||
-      (id === 4 && index === 2)
+      (id === 4 && index === 7)
     ) {
       return "\xa0";
     }
@@ -17,22 +17,27 @@ const SliderHome = () => {
   return (
     <StyledSection>
       <StyledDiv>
-        {textHome.map(({ textHome, id }) => {
-          return (
-            <ul>
-              <li key={id}>
-                <>
-                  {textHome.split("").map((word, index) => (
-                    <StyleH2>
-                      {setUpSpaceInText(id, index)}
-                      {word}
-                    </StyleH2>
-                  ))}
-                </>
-              </li>
-            </ul>
-          );
-        })}
+        <div>
+          {" "}
+          {textHome.map(({ textHome, id }) => {
+            return (
+              <ul>
+                <li key={id}>
+                  <>
+                    {textHome.split("").map((word, index) => (
+                      <StyleH2>
+                        {setUpSpaceInText(id, index)}
+                        {word}
+                      </StyleH2>
+                    ))}
+                  </>
+                </li>
+              </ul>
+            );
+          })}
+        </div>
+        <div></div>
+        <div></div>
       </StyledDiv>
     </StyledSection>
   );

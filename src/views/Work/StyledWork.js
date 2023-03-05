@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
+export const StyledDivSelect = styled.div``;
+
 export const StyledSection = styled.section`
   display: flex;
-  background-size: cover;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -18,12 +19,17 @@ export const StyledUl = styled.ul`
   margin: 0 auto;
   padding: 40px 40px 40px 40px;
   align-items: initial;
+   position: absolute
+    bottom: 0; 
   ul {
+   
     width: 350px;
     display: flex;
     align-items: inherit;
   }
   li {
+  
+   
     margin: 1rem;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
@@ -48,6 +54,9 @@ export const StyledDiv = styled.div`
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  h4 {
+    height: 90px;
   }
 `;
 

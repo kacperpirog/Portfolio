@@ -8,16 +8,16 @@ export const StyledSection = styled.section`
 
 export const StyledDiv = styled.div`
   display: flex;
-  align-items: left;
-  justify-content: left;
+  /*align-items: left;
+  justify-content: left; */
   margin: 30px auto;
   width: 100hv;
   height: 500px;
   padding: 0px 40px 40px 40px;
-
-  background-size: cover;
   flex-direction: column;
   justify-content: center;
+  div {
+  }
 `;
 
 export const StyleH2 = styled.h2`
@@ -46,7 +46,7 @@ export const StyleH2 = styled.h2`
 
   :hover {
     animation: rubberBand 1s;
-    color: #e0d0b0;
+    color: #1fa5c8;
     animation-fill-mode: both;
   }
 

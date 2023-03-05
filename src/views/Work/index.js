@@ -6,6 +6,7 @@ import {
   StyledUl,
   StyledDiv,
   BtnShowProject,
+  StyledDivSelect,
 } from "../Work/StyledWork";
 
 const Work = () => {
@@ -29,10 +30,11 @@ const Work = () => {
                   <li key={id}>
                     <StyledDiv>
                       <img src={image} alt={name} />
+
                       <h2>{title}</h2>
                       <h3>TECHNOLOGICAL SPECIFICATION:</h3>
                       <h4>{text}</h4>
-                      <div>
+                      <StyledDivSelect>
                         <BtnShowProject onClick={() => openInNewTab(nameGit)}>
                           <h6> Check on GitHub</h6>
                         </BtnShowProject>
@@ -40,7 +42,7 @@ const Work = () => {
                         <BtnShowProject onClick={() => openInNewTab(nameLive)}>
                           <h6> Live preview</h6>
                         </BtnShowProject>
-                      </div>
+                      </StyledDivSelect>
                     </StyledDiv>
                   </li>
                 </ul>
