@@ -28,9 +28,11 @@ i{
 }
 h1{
     font-family: 'Share Tech Mono', monospace;
+    color:#fff;
 }
 h2{
     font-family: 'Share Tech Mono', monospace;
+    color:#fff;
 }
 h3{
     

@@ -42,9 +42,11 @@ export const StyledUl = styled.ul`
   }
 
   img {
+    border-radius: 15px; 
     width: 285px;
     margin-bottom: 1.5rem;
-    filter: drop-shadow(2px 4px 6px #15abc4);
+    box-shadow: 1px 1px 15px rgba(153, 90, 223, 0.4),
+      -1px -1px 15px rgba(19, 158, 179, 0.4);
   }
 `;
 

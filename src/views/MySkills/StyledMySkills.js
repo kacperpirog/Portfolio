@@ -202,6 +202,4 @@ export const StyledDivSkils = styled.div`
     background-color: #fff;
     border-radius: 25px;
   }
-  li {
-  }
 `;

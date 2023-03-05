@@ -4,13 +4,12 @@ import { Link } from "react-scroll";
 
 export const StyledNav = styled.nav`
   display: flex;
-  position: fixed;
   align-items: center;
   background: white;
   height: 5rem;
   overflow: hidden;
   width: 100%;
-  margin-top: -4.5em;
+
   justify-content: space-around;
   div {
     display: flex;
