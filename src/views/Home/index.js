@@ -27,9 +27,9 @@ const Home = () => {
     <div>
       <Element name="Home" className="element">
         <SliderHome />
-      </Element>
+        {/* </Element>
       <Element name="About" className="element">
-        <About />
+        <About /> */}
       </Element>
       <Element name="Skills" className="element">
         <MySkills />

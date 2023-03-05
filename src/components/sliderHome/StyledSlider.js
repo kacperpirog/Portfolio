@@ -1,22 +1,62 @@
 import styled from "styled-components";
-
+import profileFoto_02 from "../../assets/images/profile/foto_KP_02.jpg";
+import profileFoto_01 from "../../assets/images/profile/foto_KP_01.jpg";
 import { devices } from "../../styles/globalStyles/GlobalStyles";
 
 export const StyledSection = styled.section`
   margin-top: 70px;
+  display: flex;
+  width: 85vw;
 `;
 
 export const StyledDiv = styled.div`
   display: flex;
-  /*align-items: left;
-  justify-content: left; */
   margin: 30px auto;
-  width: 100hv;
-  height: 500px;
-  padding: 0px 40px 40px 40px;
+  padding: 40px;
   flex-direction: column;
   justify-content: center;
+  h3 {
+    width: 50vw;
+    margin-top: 20px;
+  }
+`;
+export const StyledDivCircle = styled.div`
+  position: absolute;
+  filter: none;
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  left: 50%;
+  box-shadow: 1px 1px 20px rgba(153, 90, 223, 0.4),
+    -1px -1px 5px rgba(19, 158, 179, 0.4);
+
   div {
+    position: relative;
+    box-shadow: 1px 1px 20px rgba(153, 90, 223, 0.4),
+      -1px -1px 5px rgba(19, 158, 179, 0.4);
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 50%;
+    background-image: url(${profileFoto_02});
+    background-size: cover;
+    transition: all 0.3s ease-out;
+    :hover {
+      background-image: url(${profileFoto_01});
+      transition: all 0.3s ease-out;
+    }
+  }
+
+  @media ${devices.mobileS} {
+    position: inherit;
+  }
+  @media ${devices.laptopL} {
+    position: absolute;
+  }
+  @media ${devices.desktop} {
+    position: absolute;
   }
 `;
 

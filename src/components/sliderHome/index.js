@@ -1,6 +1,11 @@
 import React from "react";
 import "react-awesome-slider/dist/styles.css";
-import { StyledDiv, StyledSection, StyleH2 } from "./StyledSlider";
+import {
+  StyledDiv,
+  StyledDivCircle,
+  StyledSection,
+  StyleH2,
+} from "./StyledSlider";
 import { textHome } from "../../localData";
 
 const SliderHome = () => {
@@ -18,7 +23,6 @@ const SliderHome = () => {
     <StyledSection>
       <StyledDiv>
         <div>
-          {" "}
           {textHome.map(({ textHome, id }) => {
             return (
               <ul>
@@ -36,8 +40,16 @@ const SliderHome = () => {
             );
           })}
         </div>
-        <div></div>
-        <div></div>
+        <div>
+          <h3>
+            For over several years, my interests have oscillated around
+            programming. I started gaining experience with a bootcamp, which
+            lasted 9 months. Then I learned the basics: HTML, CSS, RWD,
+          </h3>
+        </div>
+        <StyledDivCircle>
+          <div></div>
+        </StyledDivCircle>
       </StyledDiv>
     </StyledSection>
   );

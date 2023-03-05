@@ -53,7 +53,7 @@ export const localData = [
 export const textHome = [
   { id: 1, textHome: "Hi," },
   { id: 2, textHome: "I'm Kacper," },
-  { id: 3, textHome: "Frontend developer," },
+  { id: 3, textHome: "Frontend Developer," },
   { id: 4, textHome: "Graphic Designer" },
 ];
 
