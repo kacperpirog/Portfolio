@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Form } from "formik";
 
 export const StyledForm = styled(Form)`
-  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
