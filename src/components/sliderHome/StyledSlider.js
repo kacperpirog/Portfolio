@@ -21,6 +21,23 @@ export const StyledDiv = styled.div`
   h6 {
     padding: 0 19px;
   }
+  @media ${devices.mobileS} {
+    h3 {
+      width: 80vw;
+    }
+  }
+  @media ${devices.laptopL} {
+    h3 {
+      width: 50vw;
+      margin-top: 20px;
+    }
+  }
+  @media ${devices.desktop} {
+    h3 {
+      width: 50vw;
+      margin-top: 20px;
+    }
+  }
 `;
 export const StyledDivCircle = styled.div`
   position: absolute;
@@ -71,7 +88,7 @@ export const StyleH2 = styled.h2`
   color: #fff;
 
   @media ${devices.mobileS} {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
   }
   @media ${devices.laptopL} {
     transition: all 0.3s ease-out;
