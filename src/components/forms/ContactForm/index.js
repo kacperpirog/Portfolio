@@ -2,7 +2,7 @@ import React from "react";
 import * as Yup from "yup";
 import { Formik, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
-import { StyledForm, BtnFormSend, StyledInput } from "./StyledContactForm";
+import { StyledForm, StyledInput } from "./StyledContactForm";
 import { BtnShowProject } from "../../../views/Work/StyledWork";
 
 const contactFormValidationsSchema = Yup.object().shape({
