@@ -20,8 +20,9 @@ const SliderHome = () => {
       return "\xa0";
     }
   };
-  const openInNewTab = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
+  const openInNewTab = () => {
+    const url = "../../assets/cv_kacper_pirog_JFD_EN_web.pdf"; // zastąpić właściwym adresem URL
+    window.open(url, "_blank");
   };
   return (
     <StyledSection>
