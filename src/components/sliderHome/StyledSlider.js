@@ -30,10 +30,11 @@ export const StyledDivCircle = styled.div`
   width: 300px;
   border-radius: 50%;
   left: 50%;
+
   box-shadow: 1px 1px 20px rgba(153, 90, 223, 0.4),
     -1px -1px 5px rgba(19, 158, 179, 0.4);
 
-  div {
+  .divStyled {
     position: relative;
     box-shadow: 1px 1px 20px rgba(153, 90, 223, 0.4),
       -1px -1px 5px rgba(19, 158, 179, 0.4);
@@ -42,6 +43,7 @@ export const StyledDivCircle = styled.div`
     width: 200px;
     border-radius: 50%;
     left: 50%;
+    bottom: 100%;
     background-image: url(${profileFoto_02});
     background-size: cover;
     transition: all 0.3s ease-out;
