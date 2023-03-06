@@ -5,7 +5,9 @@ export const StyledSection = styled.section`
   display: flex;
   justify-content: center;
   height: 500px;
-
   flex-direction: column;
   padding: 1rem;
+  div {
+    margin-bottom: 20px;
+  }
 `;

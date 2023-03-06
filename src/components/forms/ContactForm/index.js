@@ -3,6 +3,7 @@ import * as Yup from "yup";
 import { Formik, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
 import { StyledForm, BtnFormSend, StyledInput } from "./StyledContactForm";
+import { BtnShowProject } from "../../../views/Work/StyledWork";
 
 const contactFormValidationsSchema = Yup.object().shape({
   name: Yup.string().required("Enter your Name"),
@@ -85,9 +86,9 @@ const FormContact = () => {
                 />
               </section>
               <div>
-                <BtnFormSend type="submit">
-                  <span>SEND</span>
-                </BtnFormSend>
+                <BtnShowProject type="submit">
+                  <h6>SEND</h6>
+                </BtnShowProject>
               </div>
               <ErrorMessage name="acceptTerms" />
             </StyledForm>
