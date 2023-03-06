@@ -39,7 +39,7 @@ const FormContact = () => {
         }}
       >
         {({ values, handleChange }) => (
-          <>
+          <div>
             <StyledForm>
               <StyledInput
                 type="text"
@@ -92,7 +92,7 @@ const FormContact = () => {
               </div>
               <ErrorMessage name="acceptTerms" />
             </StyledForm>
-          </>
+          </div>
         )}
       </Formik>
     </>

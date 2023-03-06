@@ -16,7 +16,7 @@ export const StyledDiv = styled.div`
   justify-content: center;
   h3 {
     width: 50vw;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
   }
   h6 {
     padding: 0 19px;
@@ -46,7 +46,7 @@ export const StyledDivCircle = styled.div`
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  left: 50%;
+  left: 55%;
 
   box-shadow: 1px 1px 20px rgba(153, 90, 223, 0.4),
     -1px -1px 5px rgba(19, 158, 179, 0.4);
