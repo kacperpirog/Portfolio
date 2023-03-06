@@ -2,13 +2,14 @@ import photo_1 from "../assets/images/photo_1.jpg";
 import photo_2 from "../assets/images/photo_2.jpg";
 import photo_3 from "../assets/images/photo_3.jpg";
 import photo_4 from "../assets/images/photo_4.jpg";
+import photo_5 from "../assets/images/photo_5.jpg";
 
 export const localData = [
   {
     id: 1,
     name: "Shop",
     title: "SHOP APP",
-    text: "React, React Router, Styled-components, RWD, EmailJS, Formik, Mui, Firebase Yup.",
+    text: "React, React-Router, Styled-components, RWD, EmailJS, Formik, Mui, Firebase Yup.",
     nameGit: "https://github.com/kacperpirog/react_shop",
     nameLive: "https://shop-react-portfolio.netlify.app",
     image: photo_1,
@@ -36,18 +37,18 @@ export const localData = [
     name: "Portfolio",
     title: "Frontend Developer",
     text: "React, Styled-components, RWD, Formik, Yup, emailjs.",
-    nameGit: "https://github.com/kacperpirog/movies",
+    nameGit: "https://github.com/kacperpirog/portfolio",
     nameLive: "https://kacper-pirog-portfolio.netlify.app",
     image: photo_4,
   },
   {
     id: 5,
-    name: "Movies",
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum Lorem ipsum Lore ",
+    name: "Graphic Designers",
+    title: "Graphic Designer",
+    text: "React, Styled-components, RWD, Mui",
     nameGit: "https://github.com/kacperpirog/movies",
-    nameLive: "https://movies-kacper-pirog.netlify.app",
-    image: photo_3,
+    nameLive: "https://portfolio-grafik.netlify.app/",
+    image: photo_5,
   },
 ];
 
@@ -59,7 +60,7 @@ export const textHome = [
 ];
 
 export const mySkillsExp = [
-  { id: 1, text: "javaScript" },
+  { id: 1, text: "JavaScript ES6" },
   { id: 2, text: "Bootstarp" },
   { id: 3, text: "REST API" },
   { id: 4, text: "React" },
@@ -68,8 +69,9 @@ export const mySkillsExp = [
   { id: 7, text: "Typescript" },
   { id: 8, text: "Styled components" },
   { id: 9, text: "RWD" },
-  { id: 10, text: "GIT" },
-  { id: 11, text: "Styled components" },
-  { id: 12, text: "RWD" },
-  { id: 13, text: "GIT" },
+  { id: 10, text: "Git Hub" },
+  { id: 11, text: "Webpack" },
+  { id: 12, text: "Next.js" },
+  { id: 13, text: "Redux" },
+  { id: 14, text: "Context" },
 ];
