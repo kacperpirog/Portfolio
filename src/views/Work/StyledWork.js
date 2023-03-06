@@ -13,7 +13,7 @@ export const StyledSection = styled.section`
 export const StyledUl = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  width: 65vw;
+  width: 60vw;
 
   justify-content: center;
   margin: 0 auto;
