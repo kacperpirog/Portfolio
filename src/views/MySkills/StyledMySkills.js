@@ -183,7 +183,8 @@ export const StyledDivSkils = styled.div`
 
   div {
     display: flex;
-    width: 35rem;
+    min-width: 10rem;
+    max-width: 50vw;
     flex-wrap: wrap;
     justify-content: center;
   }
