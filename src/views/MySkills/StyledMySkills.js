@@ -200,6 +200,7 @@ export const StyledDivSkils = styled.div`
     box-shadow: 1px 1px 5px rgba(153, 90, 223, 0.4),
       -1px -1px 5px rgba(19, 158, 179, 0.4);
     color: white;
+    user-select: none;
     display: inline-block;
     padding: 10px;
     margin-right: 10px;
