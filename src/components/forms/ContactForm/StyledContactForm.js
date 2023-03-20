@@ -15,6 +15,9 @@ export const StyledForm = styled(Form)`
   h6 {
     width: 5rem;
   }
+  h5 {
+    color: #f50e07;
+  }
   section {
     display: flex;
     align-items: center;
@@ -41,6 +44,7 @@ export const StyledInput = styled.input`
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
+
   ::placeholder {
     color: #fff;
   }

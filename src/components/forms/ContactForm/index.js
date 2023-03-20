@@ -48,7 +48,9 @@ const FormContact = () => {
                 value={values.name}
                 onChange={handleChange}
               />
-              <ErrorMessage name="name" />
+              <h5>
+                <ErrorMessage name="name" />
+              </h5>
               <StyledInput
                 type="email"
                 name="email"
@@ -56,7 +58,9 @@ const FormContact = () => {
                 value={values.email}
                 onChange={handleChange}
               />
-              <ErrorMessage name="subject" />
+              <h5>
+                <ErrorMessage name="email" />
+              </h5>
               <StyledInput
                 type="text"
                 name="subject"
@@ -64,15 +68,19 @@ const FormContact = () => {
                 value={values.subject}
                 onChange={handleChange}
               />
-              <ErrorMessage name="subject" />
+              <h5>
+                <ErrorMessage name="subject" />
+              </h5>
               <StyledInput
                 type="message"
                 name="message"
                 placeholder="Message"
                 value={values.message}
                 onChange={handleChange}
-              />
-              <ErrorMessage name="message" />
+              />{" "}
+              <h5>
+                <ErrorMessage name="message" />
+              </h5>
               <section>
                 <label htmlFor="acceptTerms">Accept to send</label>
                 <input
@@ -89,8 +97,10 @@ const FormContact = () => {
                 <BtnShowProject type="submit">
                   <h6>SEND</h6>
                 </BtnShowProject>
-              </div>
-              <ErrorMessage name="acceptTerms" />
+              </div>{" "}
+              <h5>
+                <ErrorMessage name="acceptTerms" />
+              </h5>
             </StyledForm>
           </div>
         )}
