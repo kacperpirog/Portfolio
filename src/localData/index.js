@@ -46,7 +46,7 @@ export const localData = [
     name: "Graphic Designers",
     title: "Graphic Designer",
     text: "React, Styled-components, RWD, Mui",
-    nameGit: "https://github.com/kacperpirog/movies",
+    nameGit: "https://github.com/kacperpirog/graphic-designer-portfolio",
     nameLive: "https://graphic-kacper-pirog.netlify.app/",
     image: photo_5,
   },
