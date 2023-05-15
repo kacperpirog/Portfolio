@@ -77,7 +77,7 @@ const FormContact = () => {
                 placeholder="Message"
                 value={values.message}
                 onChange={handleChange}
-              />{" "}
+              />
               <h5>
                 <ErrorMessage name="message" />
               </h5>
@@ -97,7 +97,7 @@ const FormContact = () => {
                 <BtnShowProject type="submit">
                   <h6>SEND</h6>
                 </BtnShowProject>
-              </div>{" "}
+              </div>
               <h5>
                 <ErrorMessage name="acceptTerms" />
               </h5>
