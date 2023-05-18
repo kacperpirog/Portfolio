@@ -3,6 +3,7 @@ import photo_2 from "../assets/images/photo_2.jpg";
 import photo_3 from "../assets/images/photo_3.jpg";
 import photo_4 from "../assets/images/photo_4.jpg";
 import photo_5 from "../assets/images/photo_5.jpg";
+import photo_6 from "../assets/images/photo_6.jpg";
 
 export const localData = [
   {
@@ -50,6 +51,15 @@ export const localData = [
     nameGit: "https://github.com/kacperpirog/Recipes",
     nameLive: "https://recipes-kacper-pirog-portfolio.netlify.app",
     image: photo_2,
+  },
+  {
+    id: 6,
+    name: "To do",
+    title: "To do List App",
+    text: "React, typeCript, SCSS, RWD.",
+    nameGit: "https://github.com/kacperpirog/TS-todo",
+    nameLive: "https://typescript-to-do-list-kacper-pirog.netlify.app",
+    image: photo_6,
   },
 ];
 
