@@ -117,3 +117,12 @@ export const BtnShowProject = styled.button`
     }
   }
 `;
+
+export const CerImg = styled.button`
+  background: none;
+  border: none;
+  img {
+    width: 50%;
+    padding-bottom: 3rem;
+  }
+`;

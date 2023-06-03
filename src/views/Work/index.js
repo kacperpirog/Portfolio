@@ -7,7 +7,9 @@ import {
   StyledDiv,
   BtnShowProject,
   StyledDivSelect,
+  CerImg,
 } from "../Work/StyledWork";
+import cer_pl from "../../assets/images/EN_Kacper-Pirog-Certificate.jpg";
 
 const Work = () => {
   const openInNewTab = (url) => {
@@ -51,6 +53,9 @@ const Work = () => {
           )}
         </StyledUl>
       </div>
+      <CerImg>
+        <img src={cer_pl} alt={cer_pl} />
+      </CerImg>
     </StyledSection>
   );
 };
